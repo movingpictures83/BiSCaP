@@ -1,0 +1,362 @@
+***********************************************************************************
+*                                                                                 *
+*  PPPPPPPPPPPP    L               U           U   M           M         A        *
+*  P           P   L               U           U   MM         MM        A A       *
+*  P           P   L               U           U   M M       M M       A   A      *
+*  P           P   L               U           U   M  M     M  M      A     A     *
+*  P           P   L               U           U   M   M   M   M     A       A    *
+*  PPPPPPPPPPPP    L               U           U   M    M M    M    A         A   *
+*  P               L               U           U   M     M     M   AAAAAAAAAAAAA  *
+*  P               L               U           U   M           M   A           A  *
+*  P               L               U           U   M           M   A           A  *
+*  P               LLLLLLLLLLLLL    UUUUUUUUUUU    M           M   A           A  *
+*                                                                                 *
+*            [Plu]gin-based [M]icrobiome [A]nalysis (formerly MiAMi)              *
+* (C) 2016, 2018 Bioinformatics Research Group, Florida International University  *
+*    Under MIT License From Open Source Initiative (OSI), All Rights Reserved.    *
+*                                                                                 *
+*    Any professionally published work using PluMA should cite the following:     *
+*                        T. Cickovski and G. Narasimhan.                          *
+*                Constructing Lightweight and Flexible Pipelines                  *
+*                 Using Plugin-Based Microbiome Analysis (PluMA)                  *
+*                     Bioinformatics 34(17):2881-2888, 2018                       *
+*                                                                                 *
+***********************************************************************************
+[PluMA] Running Plugin: BiSCaP
+Settings:
+Pileup:          plugins/BiSCaP/example///test.pileup
+Reference FASTA: plugins/BiSCaP/example///test.reference.fasta
+Min Read Depth:  4
+Predicted Error: 0.1
+Quality Filter:  0
+
+Reading from file: /disk/delphi/users/tcickovs/PluMA/plugins/BiSCaP/util/Cumulative_Binomial_Probabilities_for_0.1.tab
+Max depth to be considered is 500. Run GBiD.pl for greater depth. Using reads up to this depth to determine genotype
+fasta_id_to_seq_length_hash: saving sequences from plugins/BiSCaP/example///test.reference.fasta...
+Reading from file: plugins/BiSCaP/example///test.pileup...
+most common base: 1 -> C = 4
+(line, consensus and genotype): supercont1.1    4       C       4       ,,^5.^5.        G1EC@E   = C and 0 based on HASH(0x51612c8), 4, 0.1, 4, C, HASH(0x50e6bc8)
+most common base: 1 -> A = 3
+most common base: 2 -> G = 1
+(line, consensus and genotype): supercont1.1    5       A       4       ,,.G    GGC#     = A and 0 based on HASH(0x88089f8), 4, 0.1, 4, A, HASH(0x50e6bc8)
+most common base: 1 -> A = 4
+(line, consensus and genotype): supercont1.1    6       T       4       AAaa    GGC# = A and 1 based on HASH(0x88089b0), 4, 0.1, 4, T, HASH(0x50e6bc8)
+most common base: 1 -> C = 4
+(line, consensus and genotype): supercont1.1    7       G       4       ccCC    GGC# = C and 1 based on HASH(0x51a3458), 4, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> G = 4
+(line, consensus and genotype): supercont1.1    8       C       4       GGGG    GGC# = G and 1 based on HASH(0x51a3728), 4, 0.1, 4, C, HASH(0x50e6bc8)
+most common base: 1 -> T = 4
+(line, consensus and genotype): supercont1.1    9       A       4       TTtT    GGC# = T and 1 based on HASH(0x8808b48), 4, 0.1, 4, A, HASH(0x50e6bc8)
+indel = C
+most common base: 1 -> T = 4
+(line, consensus and genotype): supercont1.1    10      T       4       ,,.-1C. GGC# = T and 0 based on HASH(0x4b33488), 4, 0.1, 4, T, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+most common base: 1 -> C = 4
+(line, consensus and genotype): supercont1.1    11      C       4       ,-1A,-1A.-1A.-1A        GGC# = C and 0 based on HASH(0x88089c8), 4, 0.1, 4, C, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+most common base: 1 -> A = 8
+(line, consensus and genotype): supercont1.1    12      A       8       ,,..,-1A,-1A.-1A.-1A    GGC#GGC# = A and 0 based on HASH(0x8808890), 8, 0.1, 4, A, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = T
+indel = T
+indel = T
+indel = T
+most common base: 1 -> A = 8
+(line, consensus and genotype): supercont1.1    13      A       8       ,-2TG,-2TG,-2TG,-2TG.-1T,-1T.-1T.-1T    GGC#GGC# = A and 0 based on HASH(0x51a3728), 8, 0.1, 4, A, HASH(0x50e6bc8)
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+most common base: 1 -> T = 12
+(line, consensus and genotype): supercont1.1    14      T       12      ,-1G,-1G.-1G.-1G,-1G,-1G.-1G.-1G..,.    GGC#GGC#GGC# = T and 0 based on HASH(0x4765b98), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = TA
+indel = TA
+indel = TA
+indel = TA
+most common base: 1 -> G = 12
+(line, consensus and genotype): supercont1.1    15      G       12      ,-1T,-1t.-1t.-1T,-1T,-1t.-1t.-1t.-2TA.-2TA,-2TA.-2TA    GGC#GGC#GGC# = G and 0 based on HASH(0x8808638), 12, 0.1, 4, G, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+indel = AA
+indel = AA
+indel = AA
+indel = AA
+most common base: 1 -> T = 12
+(line, consensus and genotype): supercont1.1    16      T       12      ,-1A,-1A.-1A.-1A,-2AA,-2AA.-2AA.-2AA..,.        GGC#GGC#GGC# = T and 0 based on HASH(0x85908e0), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+indel = AG
+indel = AG
+indel = AG
+indel = AG
+indel = AGG
+indel = AGG
+indel = AGG
+indel = AGG
+most common base: 1 -> A = 12
+(line, consensus and genotype): supercont1.1    17      A       12      ,-1A,-1A.-1A.-1A,-2AG,-2AG.-2AG.-2AG.-3AGG.-3AGG,-3AGG.-3AGG    GGC#GGC#GGC# = A and 0 based on HASH(0x8808c80), 12, 0.1, 4, A, HASH(0x50e6bc8)
+most common base: 1 -> A = 4
+(line, consensus and genotype): supercont1.1    18      A       4       ,,..    GGC# = A and 0 based on HASH(0x85909a0), 4, 0.1, 4, A, HASH(0x50e6bc8)
+most common base: 1 -> G = 4
+(line, consensus and genotype): supercont1.1    19      G       4       ,,..    GGC# = G and 0 based on HASH(0x8808a40), 4, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> C = 4
+most common base: 2 -> G = 4
+(line, consensus and genotype): supercont1.1    20      G       8       ,,..CCCC        GGC#GGC# = C and 0/1 based on HASH(0x85909a0), 8, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> C = 4
+most common base: 2 -> G = 4
+(line, consensus and genotype): supercont1.1    21      T       8       ggGGCCCC        GGC#GGC# = C,G and 1/2 based on HASH(0x8590988), 8, 0.1, 4, T, HASH(0x50e6bc8)
+most common base: 1 -> G = 8
+most common base: 2 -> C = 4
+(line, consensus and genotype): supercont1.1    22      C       12      ggGGGGgg,,..    GGC#GGC#GGC# = G and 0/1 based on HASH(0x85909a0), 12, 0.1, 4, C, HASH(0x50e6bc8)
+most common base: 1 -> C = 8
+most common base: 2 -> T = 4
+(line, consensus and genotype): supercont1.1    23      C       12      ,,..,,..TTTT    GGC#GGC#GGC# = T and 0/1 based on HASH(0x8590988), 12, 0.1, 4, C, HASH(0x50e6bc8)
+most common base: 1 -> C = 8
+most common base: 2 -> T = 4
+(line, consensus and genotype): supercont1.1    24      G       12      ccccCCCCTTTT    GGC#GGC#GGC# = C,T and 1/2 based on HASH(0x85909a0), 12, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> T = 4
+most common base: 2 -> C = 4
+most common base: 3 -> G = 4
+(line, consensus and genotype): supercont1.1    25      C       12      ,,..ggGGTTtt    GGC#GGC#GGC# = T,G and 0/1/2 based on HASH(0x8590988), 12, 0.1, 4, C, HASH(0x50e6bc8)
+most common base: 1 -> T = 4
+most common base: 2 -> C = 4
+most common base: 3 -> A = 4
+(line, consensus and genotype): supercont1.1    26      G       12      ccCCtTTTAAAA    GGC#GGC#GGC# = T,C,A and 1/2/3 based on HASH(0x85909a0), 12, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> C = 4
+(line, consensus and genotype): supercont1.1    27      C       4       ,,..    GGC# = C and 0 based on HASH(0x8808b48), 4, 0.1, 4, C, HASH(0x50e6bc8)
+most common base: 1 -> A = 4
+(line, consensus and genotype): supercont1.1    28      A       4       ,,..    GGC# = A and 0 based on HASH(0x8590970), 4, 0.1, 4, A, HASH(0x50e6bc8)
+most common base: 1 -> A = 4
+(line, consensus and genotype): supercont1.1    29      A       4       ,,..    GGC# = A and 0 based on HASH(0x51a36c8), 4, 0.1, 4, A, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+most common base: 1 -> A = 4
+(line, consensus and genotype): supercont1.1    30      A       4       ,+1A,+1A.+1A.+1A        GGC# = A and 0 based on HASH(0x8590970), 4, 0.1, 4, A, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+most common base: 1 -> T = 8
+most common base: 2 -> A = 4
+(line, consensus and genotype): supercont1.1    31      T       8       ,,..,+1A,+1A.+1A.+1A    GGC#GGC# = T and 0 based on HASH(0x8808878), 8, 0.1, 4, T, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = T
+indel = T
+indel = T
+indel = T
+most common base: 1 -> C = 8
+most common base: 2 -> TG = 4
+most common base: 3 -> T = 4
+(line, consensus and genotype): supercont1.1    32      C       8       ,+2TG,+2TG,+2TG,+2TG.+1T,+1T.+1T.+1T    GGC#GGC# = C and 0 based on HASH(0x88086f8), 8, 0.1, 4, C, HASH(0x50e6bc8)
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+indel = G
+most common base: 1 -> T = 12
+most common base: 2 -> G = 8
+(line, consensus and genotype): supercont1.1    33      T       12      ,+1G,+1G.+1G.+1G,+1G,+1G.+1G.+1G..,.    GGC#GGC#GGC# = T and 0 based on HASH(0x8808638), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = T
+indel = TA
+indel = TA
+indel = TA
+indel = TA
+most common base: 1 -> G = 12
+most common base: 2 -> T = 8
+most common base: 3 -> TA = 4
+(line, consensus and genotype): supercont1.1    34      G       12      ,+1T,+1t.+1t.+1T,+1T,+1t.+1t.+1t.+2TA.+2TA,+2TA.+2TA    GGC#GGC#GGC# = G and 0 based on HASH(0x88086f8), 12, 0.1, 4, G, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+indel = AA
+indel = AA
+indel = AA
+indel = AA
+most common base: 1 -> T = 12
+most common base: 2 -> A = 4
+most common base: 3 -> AA = 4
+(line, consensus and genotype): supercont1.1    35      T       12      ,+1A,+1A.+1A.+1A,+2AA,+2AA.+2AA.+2AA..,.        GGC#GGC#GGC# = T and 0 based on HASH(0x8808aa0), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = A
+indel = A
+indel = A
+indel = A
+indel = AG
+indel = AG
+indel = AG
+indel = AG
+indel = AGG
+indel = AGG
+indel = AGG
+indel = AGG
+most common base: 1 -> T = 12
+most common base: 2 -> A = 4
+most common base: 3 -> AG = 4
+most common base: 4 -> AGG = 4
+(line, consensus and genotype): supercont1.1    36      T       12      ,+1A,+1A.+1A.+1A,+2AG,+2AG.+2AG.+2AG.+3AGG.+3AGG,+3AGG.+3AGG    GGC#GGC#GGC# = T and 0 based on HASH(0x8808998), 12, 0.1, 4, T, HASH(0x50e6bc8)
+most common base: 1 -> G = 4
+(line, consensus and genotype): supercont1.1    37      G       4       ,,..    GGC# = G and 0 based on HASH(0x87b9010), 4, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> A = 4
+(line, consensus and genotype): supercont1.1    38      A       4       ,,..    GGC# = A and 0 based on HASH(0x8808cb0), 4, 0.1, 4, A, HASH(0x50e6bc8)
+most common base: 1 -> G = 4
+(line, consensus and genotype): supercont1.1    39      G       4       ,,..    GGC# = G and 0 based on HASH(0x8590958), 4, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> T = 4
+(line, consensus and genotype): supercont1.1    40      T       4       ,,..    GGC# = T and 0 based on HASH(0x8808b90), 4, 0.1, 4, T, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = G
+indel = G
+indel = G
+indel = G
+most common base: 1 -> T = 8
+most common base: 2 -> TG = 4
+(line, consensus and genotype): supercont1.1    41      T       8       ,+2TG,+2TG,+2TG,+2TG.-1G,-1G.-1G.-1G    GGC#GGC# = T and 0 based on HASH(0x8808860), 8, 0.1, 4, T, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = T
+indel = T
+indel = T
+indel = T
+most common base: 1 -> G = 12
+most common base: 2 -> TG = 8
+(line, consensus and genotype): supercont1.1    42      G       12      ,+2TG,+2TG,+2TG,+2TG,+2TG,+2TG,+2TG,+2TG.-1T,-1T.-1T.-1T        GGC#GGC#GGC# = G and 0 based on HASH(0x8808998), 12, 0.1, 4, G, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = T
+indel = T
+indel = T
+indel = T
+most common base: 1 -> T = 12
+most common base: 2 -> TG = 4
+(line, consensus and genotype): supercont1.1    43      T       12      ,+2TG,+2TG,+2TG,+2TG,,,,.-1T,-1T.-1T.-1T        GGC#GGC#GGC# = T and 0 based on HASH(0x8808980), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = T
+indel = T
+indel = T
+indel = T
+indel = G
+indel = G
+indel = G
+indel = G
+most common base: 1 -> T = 12
+most common base: 2 -> TG = 4
+(line, consensus and genotype): supercont1.1    44      T       12      ,+2TG,+2TG,+2TG,+2TG,+1T,+1T,+1T,+1T.-1G,-1G.-1G.-1G    GGC#GGC#GGC# = T and 0 based on HASH(0x858d1d0), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+most common base: 1 -> TG = 4
+most common base: 2 -> C = 4
+most common base: 3 -> G = 4
+(line, consensus and genotype): supercont1.1    45      G       8       ccCC,+2TG,+2TG,+2TG,+2TG        GGC##GGC# = TG,C and 1/2 based on HASH(0x8808c80), 8, 0.1, 4, G, HASH(0x50e6bc8)
+indel = G
+indel = G
+indel = G
+indel = G
+most common base: 1 -> A = 4
+most common base: 2 -> C = 4
+(line, consensus and genotype): supercont1.1    46      A       8       ccCC,-1G,-1G,-1G,-1G    GGC##GGC# = C and 0/1 based on HASH(0x8808b78), 8, 0.1, 4, A, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+most common base: 1 -> TG = 8
+most common base: 2 -> G = 8
+most common base: 3 -> C = 4
+(line, consensus and genotype): supercont1.1    47      G       12      ccCC,+2TG,+2TG,+2TG,+2TG,+2TG,+2TG,+2TG,+2TG    GGC##GGC##GGC = TG and 0/1 based on HASH(0x88089f8), 12, 0.1, 4, G, HASH(0x50e6bc8)
+indel = TG
+indel = TG
+indel = TG
+indel = TG
+most common base: 1 -> C = 8
+most common base: 2 -> T = 4
+most common base: 3 -> TG = 4
+(line, consensus and genotype): supercont1.1    48      T       12      ccCCCCCC,+2TG,+2TG,+2TG,+2TG    GGC##GGC##GGC = C and 0/1 based on HASH(0x88087d0), 12, 0.1, 4, T, HASH(0x50e6bc8)
+indel = G
+indel = G
+indel = G
+indel = G
+indel = A
+indel = A
+indel = A
+indel = A
+most common base: 1 -> G = 8
+most common base: 2 -> C = 4
+most common base: 3 -> A = 4
+(line, consensus and genotype): supercont1.1    49      G       12      cccc.-1G.-1G.-1G.-1G,+1A,+1A,+1A,+1A    GGC##GGC##GGC = C and 0/1 based on HASH(0x88089f8), 12, 0.1, 4, G, HASH(0x50e6bc8)
+most common base: 1 -> G = 4
+(line, consensus and genotype): supercont1.1    50      G       4       ,,..    GGC# = G and 0 based on HASH(0x88086f8), 4, 0.1, 4, G, HASH(0x50e6bc8)
+Finished
+
+-----------------------------------------
+Homozygous SNPs identified: 4
+Homozygous INSs identified: 0
+Homozygous DELs identified: 0
+Homozygous agree with ref : 31
+Heterozygous SNPs identified: 10
+Heterozygous INSs identified: 0
+Heterozygous DELs identified: 0
+-----------------------------------------
+Unable to resolve (number of bases): 0
+
+Ignored bases lower than Quality 0: 0
+Ignored bases lower than min depth 4: 3
+
+

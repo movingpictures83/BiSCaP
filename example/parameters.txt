@@ -1,0 +1,2 @@
+mpileup	test.pileup
+reference	test.reference.fasta
